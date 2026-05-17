@@ -1,0 +1,45 @@
+# 의존성
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# 환경변수 (절대 올리면 안 됨)
+.env
+.env.*
+!.env.example
+
+# 빌드 결과물
+dist/
+build/
+*.egg-info/
+
+# 로그
+*.log
+logs/
+
+# Claude Code 로컬 설정
+.claude/
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python 모델 캐시 (용량 큼)
+summarizer/outputs/
+*.pt
+*.bin
+*.safetensors
+
+# 임시 파일
+tmp/
+temp/

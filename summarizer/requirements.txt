@@ -1,0 +1,13 @@
+# 핵심
+kss>=4.5.4
+networkx>=3.0
+scikit-learn>=1.3
+numpy>=1.24
+
+# 추출 요약 — 의미 유사도 (선택, 없으면 TF-IDF fallback)
+sentence-transformers>=2.7
+
+# 추상 요약 — KoBART 로컬 실행
+transformers>=4.40
+torch>=2.1
+sentencepiece>=0.2
